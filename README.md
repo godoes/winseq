@@ -1,11 +1,11 @@
 # Windows Console Virtual Terminal Sequences
 
-[![Build Status](https://travis-ci.org/wzshiming/winseq.svg?branch=master)](https://travis-ci.org/wzshiming/winseq)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wzshiming/winseq)](https://goreportcard.com/report/github.com/wzshiming/winseq)
-[![GitHub license](https://img.shields.io/github/license/wzshiming/winseq.svg)](https://github.com/wzshiming/winseq/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/godoes/winseq.svg?branch=master)](https://travis-ci.org/godoes/winseq)
+[![Go Report Card](https://goreportcard.com/badge/github.com/godoes/winseq)](https://goreportcard.com/report/github.com/godoes/winseq)
+[![GitHub license](https://img.shields.io/github/license/godoes/winseq.svg)](https://github.com/godoes/winseq/blob/master/LICENSE)
 
-- [English](https://github.com/wzshiming/winseq/blob/master/README.md)
-- [简体中文](https://github.com/wzshiming/winseq/blob/master/README_cn.md)
+- [English](https://github.com/godoes/winseq/blob/master/README.md)
+- [简体中文](https://github.com/godoes/winseq/blob/master/README_cn.md)
 
 Use Unix like Sequences in Windows
 
@@ -18,7 +18,7 @@ Sequences may also be received on the input stream in response to an output stre
 
 ``` golang
 
-import _ "github.com/wzshiming/winseq"
+import _ "github.com/godoes/winseq"
 
 ```
 
@@ -27,4 +27,4 @@ import _ "github.com/wzshiming/winseq"
 
 ## License
 
-Pouch is licensed under the MIT License. See [LICENSE](https://github.com/wzshiming/winseq/blob/master/LICENSE) for the full license text.
+Pouch is licensed under the MIT License. See [LICENSE](https://github.com/godoes/winseq/blob/master/LICENSE) for the full license text.
