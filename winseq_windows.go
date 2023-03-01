@@ -1,4 +1,4 @@
-// +build windows
+//go:build windows
 
 package winseq
 
@@ -15,7 +15,7 @@ import (
 // as an encoding of user input when the appropriate mode is set.
 
 func init() {
-	enableVirtualTerminalProcessing()
+	_ = enableVirtualTerminalProcessing()
 }
 
 var (
@@ -29,7 +29,7 @@ func enableVirtualTerminalProcessing() (err error) {
 		return err
 	}
 
-	if 0 != mode&windows.ENABLE_VIRTUAL_TERMINAL_PROCESSING {
+	if mode&windows.ENABLE_VIRTUAL_TERMINAL_PROCESSING != 0 {
 		return nil
 	}
 	err = windows.SetConsoleMode(hStdout, mode|windows.ENABLE_VIRTUAL_TERMINAL_PROCESSING)
